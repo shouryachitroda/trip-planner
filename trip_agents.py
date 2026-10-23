@@ -2,8 +2,7 @@ from crewai import Agent
 import re
 import streamlit as st
 
-from tools.calculator_tools import CalculatorTools
-from tools.search_tools import SearchTools
+from trip_tools import CalculatorTools, SearchTools
 from crewai.llm import LLM
 
 model_kwargs = {
