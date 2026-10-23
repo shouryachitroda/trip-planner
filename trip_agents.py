@@ -24,6 +24,8 @@ class TripAgents():
                 SearchTools.search_internet,
             ],
             verbose=True,
+            max_iter=4,
+            max_rpm=5,
             llm=llm
         )
 
@@ -37,6 +39,8 @@ class TripAgents():
                 SearchTools.search_internet,
             ],
             verbose=True,
+            max_iter=4,
+            max_rpm=5,
             llm=llm
         )
 
@@ -52,6 +56,8 @@ class TripAgents():
                 CalculatorTools.calculate,
             ],
             verbose=True,
+            max_iter=4,
+            max_rpm=5,
             llm=llm
         )
 
